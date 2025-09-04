@@ -1,0 +1,33 @@
+# Core Data Collection & Processing
+requests==2.31.0
+pandas==2.2.0
+numpy==1.26.4
+python-dotenv==1.0.0
+
+# API-Specific Libraries
+newsapi-python==0.2.6
+geopy==2.4.1
+
+# Data Storage
+sqlalchemy==2.0.23
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+folium==0.15.1
+dash==2.14.2
+
+# Data Analysis
+scikit-learn==1.3.2
+textblob==0.17.1
+wordcloud==1.9.2
+
+# Utilities
+schedule==1.2.0
+tqdm==4.66.1
+pytest==7.4.3
+
+# Jupyter
+jupyter==1.0.0
+ipykernel==6.26.0

@@ -1,0 +1,26 @@
+Based on my research, here are some excellent reliable and free live data sources you can connect to:
+Financial Markets
+Alpaca Data API - Free real-time and historical market data for U.S. equities
+Yahoo Finance API - Stock prices, market data (though unofficial, widely used)
+Alpha Vantage - Free tier with 5 API calls per minute, 500 calls per day
+Polygon.io - Free tier with limited real-time stock data
+Weather & Environment
+OpenWeatherMap - Current weather, forecasts, historical data (1,000 free calls/day)
+National Weather Service API - Official U.S. weather data (completely free)
+Transportation
+OpenSky Network - Real-time air traffic control data and flight tracking
+Transport for London (TfL) Open Data - Real-time London transport data via REST APIs and WebSockets
+News & Media
+NewsAPI - Free tier with 1,000 requests/day for news headlines
+Guardian API - Free access to Guardian news content
+New York Times API - Free tier with limited requests
+Cryptocurrency
+Binance API - Real-time crypto data with WebSocket support
+CoinGecko API - Free crypto market data
+Government & Public Data
+Data USA - U.S. government data on demographics, education, employment
+OpenEI - U.S. energy information and datasets
+data.world - Over 18 million open datasets across various topics
+Geographic & Mapping
+OpenStreetMap (OSM) - Free, editable world maps
+OpenCelliD - Cell tower location data
