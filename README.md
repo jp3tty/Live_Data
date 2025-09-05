@@ -64,17 +64,17 @@ Live_Data/
 ├── src/                    # Source code
 │   ├── data_collectors/    # API data collection modules
 │   ├── data_processors/    # Data processing and cleaning
-│   ├── storage/           # Database and file storage
-│   └── utils/             # Utility functions
-├── notebooks/             # Jupyter notebooks for analysis
-├── data/                  # Data storage
-│   ├── raw/              # Raw API data
-│   ├── processed/        # Cleaned data
-│   └── outputs/          # Analysis outputs
-├── visualizations/        # Charts, maps, and dashboards
-├── tests/                # Unit tests
-├── scripts/              # Main execution scripts
-└── docs/                 # Documentation
+│   ├── storage/            # Database and file storage
+│   └── utils/              # Utility functions
+├── notebooks/              # Jupyter notebooks for analysis
+├── data/                   # Data storage
+│   ├── raw/                # Raw API data
+│   ├── processed/          # Cleaned data
+│   └── outputs/            # Analysis outputs
+├── visualizations/         # Charts, maps, and dashboards
+├── tests/                  # Unit tests
+├── scripts/                # Main execution scripts
+└── docs/                   # Documentation
 ```
 
 ## 🔧 Configuration
