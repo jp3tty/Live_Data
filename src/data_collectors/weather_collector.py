@@ -39,7 +39,7 @@ class WeatherCollector:
                 params = {
                     'q': city,
                     'appid': self.config.OPENWEATHER_API_KEY,
-                    'units': 'metric'
+                    'units': 'imperial'
                 }
             elif lat and lon:
                 url = f"{self.config.OPENWEATHER_BASE_URL}/weather"
@@ -47,7 +47,7 @@ class WeatherCollector:
                     'lat': lat,
                     'lon': lon,
                     'appid': self.config.OPENWEATHER_API_KEY,
-                    'units': 'metric'
+                    'units': 'imperial'
                 }
             else:
                 raise ValueError("Either city or lat/lon must be provided")
@@ -86,7 +86,7 @@ class WeatherCollector:
                 params = {
                     'q': city,
                     'appid': self.config.OPENWEATHER_API_KEY,
-                    'units': 'metric'
+                    'units': 'imperial'
                 }
             elif lat and lon:
                 url = f"{self.config.OPENWEATHER_BASE_URL}/forecast"
@@ -94,7 +94,7 @@ class WeatherCollector:
                     'lat': lat,
                     'lon': lon,
                     'appid': self.config.OPENWEATHER_API_KEY,
-                    'units': 'metric'
+                    'units': 'imperial'
                 }
             else:
                 raise ValueError("Either city or lat/lon must be provided")

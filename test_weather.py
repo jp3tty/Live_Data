@@ -17,9 +17,9 @@ def test_weather_collector():
     # Initialize collector
     collector = WeatherCollector()
     
-    # Test with default coordinates (New York)
-    print("Collecting weather data for New York...")
-    weather_data = collector.get_current_weather(lat=40.7128, lon=-74.0060)
+    # Test with Portland, Oregon coordinates
+    print("Collecting weather data for Portland, Oregon...")
+    weather_data = collector.get_current_weather(lat=45.5152, lon=-122.6784)
     
     if weather_data:
         print("✅ Weather data collected successfully!")
